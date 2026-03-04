@@ -164,13 +164,17 @@ header {
     position: absolute;
     z-index: 1;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding-left: 2rem;
     top: -90px;
     right: 0px;
     background-color: var(--off-white);
     width: 250px;
     height: 700px;
+}
+
+.nav ul {
+    margin-top: 50%;
 }
 
 .nav li {
