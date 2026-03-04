@@ -89,4 +89,5 @@ header {
     font-weight: var(--fw-800);
     font-size: var(--fs-p);
     border: none;
+    color: var(--very-dark-blue);
 }
