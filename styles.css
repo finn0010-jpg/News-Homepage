@@ -39,6 +39,7 @@ main {
     margin: auto;
     max-width: 375px;
     padding: 0 1rem;
+    position: relative;
 }
 
 header {
@@ -157,4 +158,29 @@ header {
     font-size: var(--fs-p);
     color: var(--dark-grayish-blue);
     line-height: 1.5rem;
+}
+
+.nav {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    top: -90px;
+    right: 0px;
+    background-color: var(--off-white);
+    width: 250px;
+    height: 700px;
+}
+
+.nav li {
+    list-style: none;
+    padding: 1rem 0;
+}
+
+.nav img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
 }
