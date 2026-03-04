@@ -81,5 +81,12 @@ header {
 
 .web-future button {
     margin-top: 1rem;
-
+    background-color: var(--soft-red);
+    padding: 1rem 2rem;
+    letter-spacing: 3px;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font-weight: var(--fw-800);
+    font-size: var(--fs-p);
+    border: none;
 }
