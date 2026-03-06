@@ -3,9 +3,9 @@ const closeMenu = document.getElementById('close-menu');
 const menu = document.getElementById('nav');
 
 openMenu.addEventListener('click', function() {
-    menu.classList.toggle('hidden');
+    menu.classList.toggle('open');
 });
 
 closeMenu.addEventListener('click', function() {
-    menu.classList.toggle('hidden');
+    menu.classList.toggle('open');
 });
