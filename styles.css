@@ -286,6 +286,7 @@ main {
     background: none;
     border: none;
     cursor: pointer;
+    display: block;
   }
 
   main {
