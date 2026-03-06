@@ -40,7 +40,7 @@ header {
 }
 
 .nav {
-  display: flex; 
+  display: flex;
 }
 
 .nav ul {
@@ -216,7 +216,7 @@ main {
 .popular span {
   font-size: 2rem;
   font-weight: 700;
-  color: hsl(233, 8%, 79%);
+  color: hsl(5, 85%, 63%);
   line-height: 1;
 }
 
